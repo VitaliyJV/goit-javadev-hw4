@@ -5,30 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9df7784b-e20f-4367-86bd-c60ae8771e18" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DTO/LongestProject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DTO/MaxProjectCountClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DTO/MaxProjectPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DTO/MaxSalaryWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DTO/YoungestEldestWorkers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Database/DataBaseConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Database/DataBaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Database/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Database/DatabaseInitService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Database/DatabasePopulateService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Database/DatabaseQueryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/DB_URL.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Database/DataBaseConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Database/DataBaseConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +19,23 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="goit-javadev-hw4" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -63,8 +60,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Vitaliy/goit-javadev-hw3v2.git"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Vitaliy/jdbc",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -128,6 +129,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688274486407</updated>
+      <workItem from="1688574970199" duration="31000" />
     </task>
     <servers />
   </component>
