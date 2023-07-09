@@ -5,10 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9df7784b-e20f-4367-86bd-c60ae8771e18" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DTO/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DTO/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DTO/ProjectWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DTO/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/client.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/project.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/projectWorker.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/worker.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Database/DataBaseConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Database/DataBaseConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Database/DataBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Database/DataBaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Database/DatabasePopulateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Database/DatabasePopulateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Database/DatabaseQueryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Database/DatabaseQueryService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +74,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Vitaliy/jdbc",
+    "last_opened_file_path": "C:/Users/Vitaliy/goit-javadev-hw4",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -73,7 +83,20 @@
       <recent name="Database" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DataBaseTest">
+  <component name="RunManager" selected="Application.DataBaseTest (1)">
+    <configuration name="DataBaseTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Database.DataBaseTest" />
+      <module name="org.example.goit-javadev-hw4.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Database.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DataBaseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Database.DataBaseTest" />
       <module name="goit-javadev-hw4.main" />
@@ -115,6 +138,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DataBaseTest (1)" />
         <item itemvalue="Application.DataBaseTest" />
         <item itemvalue="Application.DatabaseInitService" />
         <item itemvalue="Application.Main" />
@@ -129,9 +153,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688274486407</updated>
-      <workItem from="1688574970199" duration="31000" />
+      <workItem from="1688574970199" duration="1736000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

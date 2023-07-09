@@ -1,0 +1,92 @@
+[
+
+{
+  "id_worker": 1,
+  "name": "Dima Taran",
+  "birthday": "1978-04-04",
+  "level": "Senior",
+  "salary": 3500
+},
+
+{
+  "id_worker": 2,
+  "name": "Oleg Bobkov",
+  "birthday": "1978-04-04",
+  "level": "Junior",
+  "salary": 9000
+
+},
+
+{
+  "id_worker": 3,
+  "name": "Aleks Karacun",
+  "birthday": "1984-11-08",
+  "level": "Middle",
+  "salary": 2500
+},
+
+{
+  "id_worker": 4,
+  "name": "Misha Frol",
+  "birthday": "1993-12-02",
+  "level": "Senior",
+  "salary": 5500
+},
+
+{
+  "id_worker": 5,
+  "name": "Horhe Valverde",
+  "birthday": "1996-03-10",
+  "level": "Junior",
+  "salary": 1000
+
+},
+
+{
+  "id_worker": 6,
+  "name": "Cynthia Mager",
+  "birthday": "1994-06-07",
+  "level": "Trainee",
+  "salary": 600
+},
+
+{
+  "id_worker": 7,
+  "name": "Hanz Zimmer",
+  "birthday": "1961-09-01",
+  "level": "Middle",
+  "salary": 1800
+},
+
+{
+  "id_worker": 8,
+  "name": "Eddie Merphy",
+  "birthday": "1972-04-03",
+  "level": "Senior",
+  "salary": 4500
+},
+
+{
+  "id_worker": 9,
+  "name": "Dan Balan",
+  "birthday": "1988-08-11",
+  "level": "Trainee",
+  "salary": 700
+},
+
+{
+  "id_worker": 10,
+  "name": "Alik Karapetiyan",
+  "birthday": "1989-08-10",
+  "level": "Junior",
+  "salary": 1100
+
+}
+
+]
+
+
+
+
+
+

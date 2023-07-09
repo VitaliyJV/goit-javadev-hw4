@@ -32,20 +32,20 @@ public class DatabaseQueryService {
     }
 
     public List<MaxSalaryWorker> findMaxSalaryWorker() {
-        List<MaxSalaryWorker> maxSalaryWorkerList = new ArrayList<>();
-        try (Statement statement = connection.createStatement()) {
-            String sql = Files.readString(Path.of(FIND_MAX_SALARY_WORKER_FILE));
-            ResultSet resultSet = statement.executeQuery(sql);
-            while (resultSet.next()) {
-                MaxSalaryWorker maxSalaryWorker = new MaxSalaryWorker();
-                maxSalaryWorker.setName(resultSet.getString(COLUMN_LABEL_NAME));
-                maxSalaryWorker.setSalary(resultSet.getInt(COLUMN_LABEL_SALARY));
-                maxSalaryWorkerList.add(maxSalaryWorker);
+        List<MaxSalaryWorker> maxSalaryWorkerList = new ArrayList<>();          // лист с типом MaxSalaryWorker
+        try (Statement statement = connection.createStatement()) {              // создаем Statement
+            String sql = Files.readString(Path.of(FIND_MAX_SALARY_WORKER_FILE)); // создаем стринг команды, читая стринг из файла
+            ResultSet resultSet = statement.executeQuery(sql);                  // в поле resultSet выполняем через executeQuery стринговую команду sql,
+            while (resultSet.next()) {                                          // пока есть следующее
+                MaxSalaryWorker maxSalaryWorker = new MaxSalaryWorker();        // создаем поле типа MaxSalaryWorker
+                maxSalaryWorker.setName(resultSet.getString(COLUMN_LABEL_NAME)); // вносим данные и задаем название колонки
+                maxSalaryWorker.setSalary(resultSet.getInt(COLUMN_LABEL_SALARY)); // вносим данные и задаем название колонки
+                maxSalaryWorkerList.add(maxSalaryWorker);                           // добавляем в лист найденные данные
             }
         } catch (SQLException | IOException e) {
             e.printStackTrace();
         }
-        return maxSalaryWorkerList;
+        return maxSalaryWorkerList;                                             // возвращаем лист
     }
 
     public List<MaxProjectCountClient> findMaxProjectsClient() {
