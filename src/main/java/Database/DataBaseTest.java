@@ -24,7 +24,7 @@ public class DataBaseTest {
         clientService.setName(3, "Client_NewName");
         clientService.deleteById(1);
         System.out.println(clientService.allClientsList());
-//
+
     }
 
     public static Properties readProperties() {
