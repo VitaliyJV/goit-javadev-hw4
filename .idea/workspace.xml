@@ -5,20 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9df7784b-e20f-4367-86bd-c60ae8771e18" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DTO/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DTO/Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DTO/ProjectWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DTO/Worker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/client.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/project.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/projectWorker.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/worker.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Database/ClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db.migration/V1__init_db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db.migration/V2__populate_db.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Database/DataBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Database/DataBaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Database/DatabasePopulateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Database/DatabasePopulateService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Database/DatabaseQueryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Database/DatabaseQueryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/DB_URL.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/DB_URL.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,16 +63,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Vitaliy/goit-javadev-hw4",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vitaliy/M6DataBase-master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Database" />
@@ -86,7 +82,6 @@
   <component name="RunManager" selected="Application.DataBaseTest (1)">
     <configuration name="DataBaseTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Database.DataBaseTest" />
-      <module name="org.example.goit-javadev-hw4.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Database.*" />
